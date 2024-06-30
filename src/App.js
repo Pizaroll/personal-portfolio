@@ -1,9 +1,11 @@
-import logo from './logo.svg';
+import './logo.png';
 import './App.css';
+import { NavbarBootstrap } from "./components/navbarBS"
 
 function App() {
   return (
     <div className="App">
+      <NavbarBootstrap/>
 
     </div>
   );
